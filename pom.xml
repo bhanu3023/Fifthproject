@@ -17,6 +17,10 @@
         <configuration>
           <pluginClass>org.sonarqube.plugins.example.ExamplePlugin</pluginClass>
         </configuration>
+        <properties>
+          <maven.compiler.source>11</maven.compiler.source>
+          <maven.compiler.target>11</maven.compiler.target>
+      </properties>
       </plugin>
     </plugins>
   </build>
